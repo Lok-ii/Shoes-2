@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.free-shipping{
+    background: linear-gradient(to right, #000000, #e74c3c);
+    height: 37.5px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    color: white;
+    height: 50px;
+    text-align: center;
+    z-index: 2;
+}
+
+nav h5{
+    display: inline-block;
+    padding: 18px 15px 0 15px;
+}
+
+nav input{
+    width: 455px;
+    height: 22.5px;
+}
+
+.sale{
+    background-image: url(./Assets/28xp-shoes-09-superJumbo.jpg);
+    height: 365px;
+    background-position: center;
+    background-size: cover;
+    padding: 1px;
+}
+
+.sale-details{
+    margin: 90px 153px;
+    padding: 25px;
+    width: 860px;
+    height: 182px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.sale-details h1{
+    font-size: 30px;
+}
+
+.sale-details p{
+    font-size: larger;
+    width: 99%;
+}
+
+.Outer-trending{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(0, 0, 0, 0.7);
+    padding: 1% 5%;
+    height: 255px;
+}
+
+.trending{
+    height: 205px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.shoes{
+    display: inline-block;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1px 1.5px;
+    color: white;
+    padding-bottom: 7px;
+}
+
+.shoes img{
+    height: 120px;
+    width: 120px;
+}
+
+
+.origin{
+    height: 750px;
+    background: linear-gradient(to right,#434343, #000000);
+    color: white;
+    padding: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.origin-details{
+    background: linear-gradient(to right, #000000, #e74c3c);
+    width: 1295px;
+    height: 565px;
+    margin: auto;
+    margin-top: 110px;
+    padding: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 10px gray;
+}
+
+.origin-details p{
+    width: 40%;
+    font-size: large;
+}
+
+.origin-details img{
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    height: 300px;
+    width: 300px;
+    box-shadow: 8px 8px 8px white;
+}
+
+.origin-details img:hover{
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    height: 400px;
+    width: 400px;
+    box-shadow: 8px 8px 8px white;
+}
